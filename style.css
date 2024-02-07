@@ -1,22 +1,36 @@
+.art {
+  position: relative;
+  border: solid;
+  /* display: flex; */
+}
 .sky {
   background-color: skyblue;
-  height: 500px;
+  height: 50rem;
+  position: relative;
+  z-index: 1;
 }
 .grass {
   background-color: green;
   height: 200px;
+  z-index: 2;
 }
 .sun {
   background-color: yellow;
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: dashed orange;
+  border: solid orangered;
+  position: absolute;
+  z-index: 3;
+  top: 700px;
+  left: 350px;
 }
-.moon {
-  background-color: slategray;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: dashed;
+.form {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+@media (min-width: 428px) {
 }
