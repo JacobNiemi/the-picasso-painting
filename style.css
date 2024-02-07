@@ -1,0 +1,22 @@
+.sky {
+  background-color: skyblue;
+  height: 500px;
+}
+.grass {
+  background-color: green;
+  height: 200px;
+}
+.sun {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: dashed orange;
+}
+.moon {
+  background-color: slategray;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: dashed;
+}
