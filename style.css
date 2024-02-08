@@ -1,7 +1,6 @@
 .art {
   position: relative;
   border: solid;
-  /* display: flex; */
 }
 .sky {
   background-color: skyblue;
